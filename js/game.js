@@ -10,6 +10,9 @@ document.getElementById("gameScreen");
 const practiceBtn =
 document.getElementById("practiceBtn");
 
+const playBigBtn =
+document.getElementById("playBigBtn");
+ 
 const backBtn =
 document.getElementById("backBtn");
 
