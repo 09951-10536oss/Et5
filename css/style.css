@@ -330,7 +330,7 @@ transform:scale(1.1);
 }
 
 #backBtn{
-
+  
 margin-top:20px;
 
 padding:12px 30px;
@@ -395,6 +395,50 @@ translateY(-100px);
 
 opacity:0;
 
+}
+
+}
+#playBigBtn{
+
+width:100%;
+
+padding:20px;
+
+font-size:28px;
+
+font-weight:bold;
+
+border:none;
+
+border-radius:25px;
+
+background:
+linear-gradient(
+45deg,
+#ff90e8,
+#8fd9ff
+);
+
+color:white;
+
+margin-bottom:20px;
+
+animation:
+pulse 2s infinite;
+}
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.05);
+}
+
+100%{
+transform:scale(1);
 }
 
 }
