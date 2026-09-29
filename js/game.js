@@ -1,6 +1,9 @@
 const board =
 document.getElementById("board");
 
+const menu =
+document.getElementById("menu");
+
 const gameScreen =
 document.getElementById("gameScreen");
 
