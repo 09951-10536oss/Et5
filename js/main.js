@@ -32,3 +32,30 @@ btn.style.transform =
 });
 
 });
+
+const floatingStars =
+document.getElementById(
+"floatingStars"
+);
+
+for(let i=0;i<50;i++){
+
+const star=
+document.createElement("div");
+
+star.classList.add("star");
+
+star.style.left=
+Math.random()*100+"%";
+
+star.style.animationDuration=
+(4+Math.random()*6)+"s";
+
+star.style.animationDelay=
+Math.random()*5+"s";
+
+floatingStars.appendChild(
+star
+);
+
+}
